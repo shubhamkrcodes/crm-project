@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import RecordForm from '../components/RecordForm';
 import RecordList from '../components/RecordList';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
 import api from '../services/api';
 
 const Dashboard = () => {
